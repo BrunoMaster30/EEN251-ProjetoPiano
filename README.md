@@ -27,7 +27,7 @@ Este projeto consiste na construção de um **piano digital** utilizando microco
 ### Software
 | Ferramenta | Descrição |
 |---|---|
-| [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio) | IDE para desenvolvimento e gravação de firmware |
+| [Thonny](https://thonny.org/) | IDE para desenvolvimento e gravação de firmware |
 
 ### Linguagens
 | Linguagem | Uso |
