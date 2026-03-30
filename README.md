@@ -79,7 +79,7 @@ O diagrama abaixo ilustra o fluxo de funcionamento do sistema:
 │  [ Tecla Pressionada ]                              │
 │          │                                          │
 │          ▼                                          │
-│  [ GPIO - Raspberry Pi Pico   ]                     │
+│  [ GPIO - Raspberry Pi Pico ]                       │
 │          │                                          │
 │          ▼                                          │
 │  [ Firmware MicroPython ]                           │
@@ -160,7 +160,7 @@ EEN251-ProjetoPiano/
 
 - [Documentação oficial do MicroPython](https://docs.micropython.org/)
 - [Raspberry Pi Pico — Pinout](https://pinout.xyz/)
-- [Microchip Studio — Getting Started](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
+- [Thonny](https://thonny.org/)
 - Instituto Mauá de Tecnologia — Material de apoio EEN251
 
 ---
