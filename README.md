@@ -117,9 +117,7 @@ O diagrama abaixo ilustra o fluxo de funcionamento do sistema:
 ```
 EEN251-ProjetoPiano/
 ├── src/
-│   ├── main.py           # Código principal MicroPython
-│   ├── notes.py          # Mapeamento de frequências das notas
-│   └── piano.py          # Lógica de controle do piano
+│   └── testepiano.py          # Lógica de controle do piano
 ├── hardware/
 │   ├── schematic.pdf     # Esquemático elétrico
 │   └── bom.csv           # Lista de componentes (Bill of Materials)
