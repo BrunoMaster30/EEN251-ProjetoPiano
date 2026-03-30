@@ -32,12 +32,12 @@ Este projeto consiste na construção de um **piano digital** utilizando microco
 ### Linguagens
 | Linguagem | Uso |
 |---|---|
-| MicroPython | Programação do microcontrolador Raspberry Pi Zero W |
+| MicroPython | Programação do microcontrolador Raspberry Pi Pico |
 
 ### Hardware
 | Componente | Descrição |
 |---|---|
-| Raspberry Pi Zero W | Microcontrolador principal do projeto |
+| Raspberry Pi Pico | Microcontrolador principal do projeto |
 
 ---
 
@@ -46,12 +46,12 @@ Este projeto consiste na construção de um **piano digital** utilizando microco
 O projeto é dividido nas seguintes etapas:
 
 ### 1. Configuração do Hardware
-- Montagem do circuito com o Raspberry Pi Zero W
+- Montagem do circuito com o Raspberry Pi Pico
 - Conexão das teclas (botões/sensores de toque) às GPIOs
 - Conexão do módulo de saída de áudio (buzzer ou DAC + alto-falante)
 
 ### 2. Desenvolvimento do Firmware
-- Configuração do ambiente MicroPython no Raspberry Pi Zero W
+- Configuração do ambiente MicroPython no Raspberry Pi Pico
 - Implementação da leitura de entradas digitais (teclas do piano)
 - Mapeamento de cada tecla para sua respectiva frequência de nota musical
 - Geração de sinal de áudio via PWM ou I2S
@@ -79,7 +79,7 @@ O diagrama abaixo ilustra o fluxo de funcionamento do sistema:
 │  [ Tecla Pressionada ]                              │
 │          │                                          │
 │          ▼                                          │
-│  [ GPIO - Raspberry Pi Zero W ]                     │
+│  [ GPIO - Raspberry Pi Pico   ]                     │
 │          │                                          │
 │          ▼                                          │
 │  [ Firmware MicroPython ]                           │
@@ -131,7 +131,7 @@ EEN251-ProjetoPiano/
 ## 🚀 Como Executar
 
 ### Pré-requisitos
-- Raspberry Pi Zero W configurado com MicroPython
+- Raspberry Pi Pico configurado com MicroPython
 - Thonny IDE ou `mpremote` instalado no computador host
 
 ### Passos
@@ -142,7 +142,7 @@ EEN251-ProjetoPiano/
    cd EEN251-ProjetoPiano
    ```
 
-2. **Transfira os arquivos para o Raspberry Pi Zero W:**
+2. **Transfira os arquivos para o Raspberry Pi Pico:**
    ```bash
    mpremote connect /dev/ttyUSB0 cp src/notes.py :notes.py
    mpremote connect /dev/ttyUSB0 cp src/piano.py :piano.py
@@ -159,7 +159,7 @@ EEN251-ProjetoPiano/
 ## 📚 Referências
 
 - [Documentação oficial do MicroPython](https://docs.micropython.org/)
-- [Raspberry Pi Zero W — Pinout](https://pinout.xyz/)
+- [Raspberry Pi Pico — Pinout](https://pinout.xyz/)
 - [Microchip Studio — Getting Started](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
 - Instituto Mauá de Tecnologia — Material de apoio EEN251
 
