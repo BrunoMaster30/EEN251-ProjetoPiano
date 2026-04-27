@@ -22,12 +22,19 @@ Este projeto consiste na construção de um **piano digital** utilizando microco
 
 ---
 
+## 📷 Imagens
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-04-13 at 17 17 00" src="https://github.com/user-attachments/assets/c6188526-a087-4c88-a42a-63a11d258fc1" />
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 ### Software
 | Ferramenta | Descrição |
 |---|---|
 | [Thonny](https://thonny.org/) | IDE para desenvolvimento e gravação de firmware |
+| [Blender](https://www.blender.org/) | Ferramenta para criação de modelos 2D e 3D |
 
 ### Linguagens
 | Linguagem | Uso |
@@ -48,22 +55,27 @@ O projeto é dividido nas seguintes etapas:
 ### 1. Configuração do Hardware
 - Montagem do circuito com o Raspberry Pi Pico
 - Conexão das teclas (botões/sensores de toque) às GPIOs
-- Conexão do módulo de saída de áudio (buzzer ou DAC + alto-falante)
+- Conexão do módulo de saída de áudio (buzzer)
 
 ### 2. Desenvolvimento do Firmware
-- Configuração do ambiente MicroPython no Raspberry Pi Pico
+- Configuração do ambiente MicroPython no Raspberry Pi Pico (Thonny)
 - Implementação da leitura de entradas digitais (teclas do piano)
 - Mapeamento de cada tecla para sua respectiva frequência de nota musical
-- Geração de sinal de áudio via PWM ou I2S
+- Geração de sinal de áudio via PWM
 
-### 3. Integração e Testes
+### 3. Desenvolvimento da estrutura
+- Esboço
+- Prototipagem 3D (Blender)
+- Impressão 3D
+- Monatgem
+
+### 4. Integração e Testes
 - Testes individuais de cada tecla e nota
 - Validação da resposta temporal (latência de acionamento)
 - Ajuste de timbre e duração das notas
 
-### 4. Documentação e Apresentação
+### 5. Documentação e Apresentação
 - Documentação técnica do projeto
-- Esquemático elétrico
 - Demonstração funcional
 
 ---
@@ -118,9 +130,6 @@ O diagrama abaixo ilustra o fluxo de funcionamento do sistema:
 EEN251-ProjetoPiano/
 ├── src/
 │   └── testepiano.py          # Lógica de controle do piano
-├── hardware/
-│   ├── schematic.pdf     # Esquemático elétrico
-│   └── bom.csv           # Lista de componentes (Bill of Materials)
 ├── docs/
 │   └── relatorio.pdf     # Relatório técnico do projeto
 └── README.md
@@ -144,14 +153,12 @@ EEN251-ProjetoPiano/
 
 2. **Transfira os arquivos para o Raspberry Pi Pico:**
    ```bash
-   mpremote connect /dev/ttyUSB0 cp src/notes.py :notes.py
-   mpremote connect /dev/ttyUSB0 cp src/piano.py :piano.py
-   mpremote connect /dev/ttyUSB0 cp src/main.py :main.py
+   mpremote connect /dev/ttyUSB0 cp src/testepiano.py :testepiano.py
    ```
 
 3. **Execute o programa:**
    ```bash
-   mpremote connect /dev/ttyUSB0 run src/main.py
+   mpremote connect /dev/ttyUSB0 run src/testepaino.py
    ```
 
 ---
