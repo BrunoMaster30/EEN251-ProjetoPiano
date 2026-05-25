@@ -24,8 +24,21 @@ Este projeto consiste na construção de um **piano digital** utilizando microco
 
 ## 📷 Imagens
 
-<img width="1600" height="1200" alt="WhatsApp Image 2026-04-13 at 17 17 00" src="https://github.com/user-attachments/assets/c6188526-a087-4c88-a42a-63a11d258fc1" />
+<img width="1066" height="461" alt="image" src="https://github.com/user-attachments/assets/bb23d93b-ec67-438f-a646-3a38e6fb6622" />
+> Tabela de Requisitos
 
+<img width="1130" height="492" alt="image" src="https://github.com/user-attachments/assets/dfe93867-8d40-42bd-82cd-f420f760b125" />
+Tabela de Custos
+
+<img width="1491" height="852" alt="image" src="https://github.com/user-attachments/assets/857ddd6e-4b56-4037-8497-7b31675ad453" />
+Diagrama de Componentes
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-04-13 at 17 17 00" src="https://github.com/user-attachments/assets/c6188526-a087-4c88-a42a-63a11d258fc1" />
+Versão 1    Teste/Protótipo
+
+<img width="1442" height="1056" alt="image" src="https://github.com/user-attachments/assets/fde9cd59-0b57-44c6-8975-7dceddf270c7" />
+
+Versão 2    Final/1º Semestre
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -34,7 +47,7 @@ Este projeto consiste na construção de um **piano digital** utilizando microco
 | Ferramenta | Descrição |
 |---|---|
 | [Thonny](https://thonny.org/) | IDE para desenvolvimento e gravação de firmware |
-| [Blender](https://www.blender.org/) | Ferramenta para criação de modelos 2D e 3D |
+| [AutoDesk Fusion](https://www.autodesk.com/products/fusion-360/personal) | Ferramenta para criação de modelos 2D e 3D |
 
 ### Linguagens
 | Linguagem | Uso |
@@ -42,9 +55,13 @@ Este projeto consiste na construção de um **piano digital** utilizando microco
 | MicroPython | Programação do microcontrolador Raspberry Pi Pico |
 
 ### Hardware
-| Componente | Descrição |
+| Componente | Funcionalidade |
 |---|---|
 | Raspberry Pi Pico | Microcontrolador principal do projeto |
+| Potenciometro 10k | Regulador de Volume |
+| Resistores | Filtro |
+| Botões | Entrada do Usuário |
+| Capacitor | Filtragem de Onda |
 
 ---
 
@@ -65,18 +82,19 @@ O projeto é dividido nas seguintes etapas:
 
 ### 3. Desenvolvimento da estrutura
 - Esboço
-- Prototipagem 3D (Blender)
+- Prototipagem 3D (Fusion)
 - Impressão 3D
-- Monatgem
+- Montagem
 
 ### 4. Integração e Testes
 - Testes individuais de cada tecla e nota
 - Validação da resposta temporal (latência de acionamento)
 - Ajuste de timbre e duração das notas
+- PseudoAcordes e Oitavas Alteraveis
 
-### 5. Documentação e Apresentação
+
 - Documentação técnica do projeto
-- Demonstração funcional
+### 5. Demonstração funcional
 
 ---
 
@@ -98,6 +116,9 @@ O diagrama abaixo ilustra o fluxo de funcionamento do sistema:
 │    - Detecção de entrada                            │
 │    - Mapeamento nota/frequência                     │
 │    - Geração de sinal PWM                           │
+│          │                                          │
+│          ▼                                          │
+│  [Filtro de Passa-Baixo]                            |
 │          │                                          │
 │          ▼                                          │
 │  [ Saída de Áudio ]                                 │
@@ -129,10 +150,11 @@ O diagrama abaixo ilustra o fluxo de funcionamento do sistema:
 ```
 EEN251-ProjetoPiano/
 ├── src/
-│   └── testepiano.py          # Lógica de controle do piano
+│   └── testepiano.py          # Protótipo da lógica de controle do piano
 ├── docs/
 │   └── relatorio.pdf     # Relatório técnico do projeto
 └── README.md
+└── main.py               # Código Principal do funcionamento Piano
 ```
 
 ---
@@ -178,4 +200,4 @@ Este projeto é de uso acadêmico, desenvolvido para a disciplina EEN251 do Inst
 
 ---
 
-*Desenvolvido com 🎵 pelo Grupo EEN251 — IMT, 2026*
+*Desenvolvido com 🎵 pelo Grupo IMT, 2026*
