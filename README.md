@@ -24,21 +24,26 @@ Este projeto consiste na construção de um **piano digital** utilizando microco
 
 ## 📷 Imagens
 
-<img width="1066" height="461" alt="image" src="https://github.com/user-attachments/assets/bb23d93b-ec67-438f-a646-3a38e6fb6622" />
-> Tabela de Requisitos
+<div align="center"><img width="533" height="230" alt="image" src="https://github.com/user-attachments/assets/bb23d93b-ec67-438f-a646-3a38e6fb6622" />
 
-<img width="1130" height="492" alt="image" src="https://github.com/user-attachments/assets/dfe93867-8d40-42bd-82cd-f420f760b125" />
+Tabela de Requisitos
+
+<img width="565" height="246" alt="image" src="https://github.com/user-attachments/assets/dfe93867-8d40-42bd-82cd-f420f760b125" />
+
 Tabela de Custos
 
-<img width="1491" height="852" alt="image" src="https://github.com/user-attachments/assets/857ddd6e-4b56-4037-8497-7b31675ad453" />
+<img width="521" height="298" alt="image" src="https://github.com/user-attachments/assets/857ddd6e-4b56-4037-8497-7b31675ad453" />
+
 Diagrama de Componentes
 
-<img width="1600" height="1200" alt="WhatsApp Image 2026-04-13 at 17 17 00" src="https://github.com/user-attachments/assets/c6188526-a087-4c88-a42a-63a11d258fc1" />
+<img width="576" height="432" alt="WhatsApp Image 2026-04-13 at 17 17 00" src="https://github.com/user-attachments/assets/c6188526-a087-4c88-a42a-63a11d258fc1" />
+
 Versão 1    Teste/Protótipo
 
-<img width="1442" height="1056" alt="image" src="https://github.com/user-attachments/assets/fde9cd59-0b57-44c6-8975-7dceddf270c7" />
+<img width="576" height="422" alt="image" src="https://github.com/user-attachments/assets/fde9cd59-0b57-44c6-8975-7dceddf270c7" />
 
-Versão 2    Final/1º Semestre
+Versão 2    Final/1º Semestre</div>
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
