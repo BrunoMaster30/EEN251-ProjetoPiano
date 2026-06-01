@@ -69,7 +69,7 @@ Versão 2    Final/1º Semestre</div>
 | Componente | Funcionalidade |
 |---|---|
 | Raspberry Pi Pico | Microcontrolador principal do projeto |
-| Potenciometro 10k | Regulador de Volume |
+| Potenciômetro 10k | Regulador de Volume |
 | Resistores | Filtro |
 | Botões | Entrada do Usuário |
 | Capacitor | Filtragem de Onda |
@@ -98,7 +98,6 @@ O projeto é dividido nas seguintes etapas:
 - Montagem
 
 ### 4. Integração e Testes
-## 🧪 Integração e Testes
 
 | Teste | Objetivo |
 |---|---|
