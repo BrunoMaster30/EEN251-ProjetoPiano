@@ -19,7 +19,7 @@ Este projeto consiste na construção de um **piano digital** utilizando microco
 | Bruno Ferreira Nishiya | 23.01020-7 |
 | Felipe Kolanian Pasquini | 23.00118-6 |
 | Leonardo Luiz Seixas Iorio | 23.00847-4 |
-
+| Gustavo Henrique Rivero Pasqualin | 23.00531-9 |
 ---
 
 ## 📷 Imagens
