@@ -24,13 +24,19 @@ Este projeto consiste na construção de um **piano digital** utilizando microco
 
 ## 📷 Imagens
 
+A tabela abaixo apresenta os requisitos funcionais e não funcionais definidos para o projeto.
+
 <div align="center"><img width="533" height="230" alt="image" src="https://github.com/user-attachments/assets/bb23d93b-ec67-438f-a646-3a38e6fb6622" />
 
 Tabela de Requisitos
 
+A tabela apresenta a estimativa de custos dos componentes utilizados no projeto, permitindo avaliar ao impacto econômico do piano.
+
 <img width="565" height="246" alt="image" src="https://github.com/user-attachments/assets/dfe93867-8d40-42bd-82cd-f420f760b125" />
 
 Tabela de Custos
+
+O diagrama representa simplificadamente a arquitetura do piano.
 
 <img width="521" height="298" alt="image" src="https://github.com/user-attachments/assets/857ddd6e-4b56-4037-8497-7b31675ad453" />
 
@@ -92,10 +98,15 @@ O projeto é dividido nas seguintes etapas:
 - Montagem
 
 ### 4. Integração e Testes
-- Testes individuais de cada tecla e nota
-- Validação da resposta temporal (latência de acionamento)
-- Ajuste de timbre e duração das notas
-- PseudoAcordes e Oitavas Alteraveis
+## 🧪 Integração e Testes
+
+| Teste | Objetivo |
+|---|---|
+| Testes individuais de cada tecla e nota | Verificar se cada tecla aciona corretamente sua respectiva nota musical. |
+| Validação da resposta temporal | Avaliar se o som é reproduzido sem atraso perceptível após o acionamento da tecla. |
+| Ajuste de timbre e duração das notas | Ajustar a qualidade sonora e o tempo de reprodução das notas. |
+| Pseudoacordes | Validar a reprodução de combinações de notas simulando acordes. |
+| Oitavas alteráveis | Verificar se o sistema altera corretamente a altura das notas entre diferentes oitavas. |
 
 
 - Documentação técnica do projeto
@@ -155,11 +166,11 @@ O diagrama abaixo ilustra o fluxo de funcionamento do sistema:
 ```
 EEN251-ProjetoPiano/
 ├── src/
-│   └── testepiano.py          # Protótipo da lógica de controle do piano
+│   └── testepiano.py     # Protótipo da lógica de controle do piano
 ├── docs/
 │   └── relatorio.pdf     # Relatório técnico do projeto
-└── README.md
-└── main.py               # Código Principal do funcionamento Piano
+├── main.py               # Código Principal do funcionamento Piano
+└── README.md          
 ```
 
 ---
@@ -185,7 +196,7 @@ EEN251-ProjetoPiano/
 
 3. **Execute o programa:**
    ```bash
-   mpremote connect /dev/ttyUSB0 run src/testepaino.py
+   mpremote connect /dev/ttyUSB0 run src/testepiano.py
    ```
 
 ---
