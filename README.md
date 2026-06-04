@@ -50,7 +50,22 @@ Versão 1    Teste/Protótipo
 
 Versão 2    Final/1º Semestre</div>
 
+
+<img width="4000" height="3000" alt="foto grupo micro" src="https://github.com/user-attachments/assets/af3462fa-8281-49e3-a44f-4bcbba260fb6" />
+
+Foto dos integrantes do grupo
+
+
 ---
+
+## Vídeo de Funcionamento do Projeto
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/04ac594f-8ff8-4192-b54c-71de347631cb.mp4" width="600" controls="controls"></video>
+  <br>
+  Demonstração do Projeto
+</div>
+
 
 ## 🛠️ Tecnologias Utilizadas
 
